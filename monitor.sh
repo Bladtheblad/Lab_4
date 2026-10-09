@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Daily MEMORY CHECK - $(date)" >> system_log.txt
+
+echo "official system report - $(date)" >> system_log.txt
 free -h | grep Mem >> system_log.txt
-echo "--------------------" >> system_log.txt
+echo "---------------------" >> system_log.txt
 
 
